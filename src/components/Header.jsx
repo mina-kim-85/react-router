@@ -10,7 +10,7 @@ export default function Header() {
         <header>
             <nav className="navbar">
                 <div className="nav-container">
-                    <NavLink to="/" className="nav-logo"><h1>Logo</h1></NavLink>
+                    <NavLink to="/" className="nav-logo"><h1>Mina Kim</h1></NavLink>
                 
                     <ul className={click ? "nav-menu active" : "nav-menu"}>
                         <li className="nav-item"><NavLink to="/" className="nav-links" onClick={handleClick}>Home</NavLink></li>
